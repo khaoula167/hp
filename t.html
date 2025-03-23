@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Our Menu</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .menu-section {
+            background-color: #f8f9fa;
+            padding: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .menu-img {
+            width: 100%;
+            height: auto;
+            max-height: 300px;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        .back-to-top {
+            display: inline-block;
+            margin-top: 20px;
+            font-size: 1.2rem;
+            color: #007bff;
+            text-decoration: none;
+        }
+        .back-to-top:hover {
+            text-decoration: underline;
+        }
+        /* Custom border styles for each menu table */
+        .menu-table {
+            width: 100%;
+            border: 2px solid #000;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+        .menu-table th, .menu-table td {
+            border: 1px solid #ddd;
+            padding: 15px;
+            text-align: center;
+        }
+        .menu-table th {
+            background-color: #343a40;
+            color: white;
+        }
+        .menu-table img {
+            width: 50%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Food, LLC</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#chicken">Chicken</a></li>
+                <li class="nav-item"><a class="nav-link" href="#beef">Beef</a></li>
+                <li class="nav-item"><a class="nav-link" href="#sushi">Sushi</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container text-center mt-4">
+        <h1 id="menu">Our Menu</h1>
+    </div>
+    
+    <div class="container mt-4">
+        <!-- Chicken Table -->
+        <table class="menu-table" id="chicken">
+            <thead>
+                <tr>
+                    <th colspan="2">Chicken</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">
+                        <img src="téléchargement (2).jpg" alt="Chicken" class="menu-img">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor nibh eget elit malesuada, at volutpat felis dapibus. Integer sit amet orci at risus tempus volutpat. Mauris euismod risus id lectus tincidunt, sed posuere ligula condimentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <a href="#menu" class="back-to-top">Back to Top</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Beef Table -->
+        <table class="menu-table" id="beef">
+            <thead>
+                <tr>
+                    <th colspan="2">Beef</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">
+                        <img src="beef-fillet-with-dripping.jpg" alt="Beef" class="menu-img">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet neque at nisi luctus ullamcorper sit amet vel dui. Sed sit amet felis velit. Etiam sed risus sed ligula placerat euismod. Maecenas feugiat, nunc vel volutpat dictum, enim tortor maximus risus, eu rutrum ante purus vitae justo.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <a href="#menu" class="back-to-top">Back to Top</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Sushi Table -->
+        <table class="menu-table" id="sushi">
+            <thead>
+                <tr>
+                    <th colspan="2">Sushi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">
+                        <img src="téléchargement (3).jpg" alt="Sushi" class="menu-img">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget justo in justo luctus varius at eget sem. Fusce in malesuada erat. Cras elementum, ante at feugiat pharetra, magna felis scelerisque odio, et iaculis mi risus a lorem. Phasellus at nisi eget ipsum consequat varius.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <a href="#menu" class="back-to-top">Back to Top</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
